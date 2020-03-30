@@ -1,5 +1,28 @@
-body {
+* {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'montseratt',sans-serif;
+
+}
+
+.App{
+    
+  background-image: url('./assets/');
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4 ease-out;
+
+}
+
+.App.warm{
+  background-image: url('./assets/');
+}
+
+main{
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom,rgba(0,0,0,0.2)),
 }
