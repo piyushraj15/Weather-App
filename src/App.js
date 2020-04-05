@@ -11,7 +11,7 @@ function App() {
 
    const [query, setQuery]=useState("")
    const [weather, setWeather]= useState({});
-   
+   //dasdaasdasd
    const search=event=>{
      if(event.key==="Enter"){
       Axios.get(`${api.base}weather?q=${query}&units=metric&APPID=${api.key}`)
